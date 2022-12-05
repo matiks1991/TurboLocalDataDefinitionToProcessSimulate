@@ -1,0 +1,51 @@
+CONST speeddata v5:=[5,500,5000,1000];
+CONST speeddata v20:=[20,500,5000,1000];
+CONST speeddata v30:=[30,500,5000,1000];
+CONST speeddata v40:=[40,500,5000,1000];
+CONST speeddata v50:=[50,500,5000,1000];
+CONST speeddata v60:=[60,500,5000,1000];
+CONST speeddata v80:=[80,500,5000,1000];
+CONST speeddata v100:=[100,500,5000,1000];
+CONST speeddata v150:=[150,500,5000,1000];
+CONST speeddata v200:=[200,500,5000,1000];
+CONST speeddata v300:=[300,500,5000,1000];
+CONST speeddata v400:=[400,500,5000,1000];
+CONST speeddata v500:=[500,500,5000,1000];
+CONST speeddata v600:=[600,500,5000,1000];
+CONST speeddata v800:=[800,500,5000,1000];
+CONST speeddata v1000:=[1000,500,5000,1000];
+CONST speeddata v1500:=[1500,500,5000,1000];
+CONST speeddata v2000:=[2000,500,5000,1000];
+CONST speeddata v2500:=[2500,500,5000,1000];
+CONST speeddata v3000:=[3000,500,5000,1000];
+CONST speeddata v4000:=[4000,500,5000,1000];
+CONST speeddata v5000:=[5000,500,5000,1000];
+CONST speeddata v6000:=[6000,500,5000,1000];
+CONST speeddata v7000:=[7000,500,5000,1000];
+CONST speeddata vmax:=[5000,500,5000,1000];
+
+
+CONST zonedata fine:=[True,0,0,0,0,0,0];
+CONST zonedata z0:=[False,0.3,0.3,0.3,0.03,0.3,0.03];
+CONST zonedata z1:=[False,1,1,1,0.1,1,0.1];
+CONST zonedata z5:=[False,5,8,8,0.8,8,0.8];
+CONST zonedata z10:=[False,10,15,15,1.5,15,1.5];
+CONST zonedata z15:=[False,15,23,23,2.3,23,2.3];
+CONST zonedata z20:=[False,20,30,30,3,30,3];
+CONST zonedata z30:=[False,30,45,45,4.5,45,4.5];
+CONST zonedata z40:=[False,40,60,60,6,60,6];
+CONST zonedata z50:=[False,50,75,75,7.5,75,7.5];
+CONST zonedata z60:=[False,60,90,90,9,90,9];
+CONST zonedata z80:=[False,80,120,120,12,120,12];
+CONST zonedata z100:=[False,100,150,150,15,150,15];
+CONST zonedata z150:=[False,150,225,225,23,225,23];
+CONST zonedata z200:=[False,200,300,300,30,300,30];
+
+PERS tooldata tool0 := [TRUE, [[0, 0, 0], [1, 0, 0, 0]],
+                       [0.001, [0, 0, 0.001],[1, 0, 0, 0], 0, 0, 0]];
+
+PERS wobjdata wobj0 := [FALSE, TRUE, "", [[0, 0, 0],[1, 0, 0, 0]],
+                       [[0, 0, 0],[1, 0, 0, 0]]];
+
+PERS loaddata load0 := [0.001, [0, 0, 0.001],[1, 0, 0, 0], 0, 0, 0];
+
